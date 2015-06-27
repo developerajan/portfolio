@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px){
+	/*HEADER
+	-----------------------------------------*/
+	.header{width: 100%;height: auto;padding: 0 0 5px 0;}
+	.navigation {float: none;padding-top: 10px;clear: both;width: 96%;margin: auto;display: none;}
+	.navigation ul li{width: 100%;margin: 0;padding: 2% 0;}
+	.navigation ul li a{font-weight: bold;}
+	.mobile-nav {float: right;cursor: pointer;}
+	.mobile-nav span{background: #2992c1;padding: 1px 14px;display: block;margin: 5px 0;}
+	.header .logo{width: 95%;margin: 10px auto;}
+
+	/*PAGES
+	-----------------------------------------*/
+	.mobile-title{display: block;text-transform: uppercase;color: rgba(0,0,0,0.8);font-weight: 900;margin-bottom: 2px;}
+	.about .intro{font-size: 1em;margin: 0;line-height: 1.5em;}
+	.content {width: 77%;margin: 70px auto;}
+	.group-a ,.group-b {width: 100%;float: left;overflow: hidden;}
+	.contact-me,.works ul,.skills{width: 77%;margin: 53px auto;overflow: hidden;height: 370px;overflow-y: scroll;}
+	.content{width: 77%;margin: 53px auto;}
+	.works ul{width: 68%;}
+	.works ul li{margin: 4% 1% 1% 1%;}
+	.skills ul li h3{font-size: 0.750em;}
+	.skills ul li{margin: 10px 0 16px;}
+	.skills ul li .base{width: 93%;height: 19px;}
+	.skills ul li .base span{height: 19px;}
+
+	/*CONACT ME
+	-----------------------------------------*/
+	.contact-form {width: 84%;float: none;margin: auto;}
+	.contact-me {margin: 50px auto;width: 83%;padding-bottom: 20px;}
+	.direct-contact {float: none;padding: 0;width: 83%;margin: auto;}
+	.direct-contact p {margin: 9px 0;font-size: 0.750em;}
+	.contact-me ul li{margin: 0 5px 0 0;}
+}
+
+@media screen and (max-width: 768px) and (orientation:landscape){
+	.onepage-pagination{top: 33%;}
+	.about .intro{padding-right: 10px;}
+	.contact-me,.works ul,
+	.skills,.about .intro {overflow: hidden;overflow-y: scroll;height: 169px;	}
+	.works ul{width: 89%;}
+	.clear-float{clear: both;}
+	.works ul li {margin: 0 4% 1% 5%;}
+}
